@@ -1,0 +1,4 @@
+This source project intentionally does not include a Gradle wrapper because the
+build environment used to prepare it cannot resolve external Maven/Gradle hosts.
+Run `gradle wrapper` or generate a wrapper from a normal Fabric development
+environment, then run `./gradlew build`.

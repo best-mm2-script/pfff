@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hello-world-mod",
+  "version": "${version}",
+  "name": "Hello World File",
+  "description": "Creates hello_world.txt containing hello world when Minecraft starts.",
+  "authors": ["Example"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.helloworld.HelloWorldMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
